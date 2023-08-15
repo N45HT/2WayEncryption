@@ -67,10 +67,10 @@ $enc = array("0" => ["4CqhJ|^2]KvYr+05","4EafZ[%7,DwGe{26","\$DwCy_86o%I8Sj2[","
 
 function enc($v,$enc){
 	$fn = [];
-	$f = $v;
+	$f = "out.txt";
 	$fout = $dout = $eout = null;
 	$enl = 16;
-	if(file_exists($f)){
+	if(file_exists($v)){
 		$lf = str_replace(["\n","\r"],"",file_get_contents($f));
 		if(strlen($lf) % $enl == 0){
 			$se = str_split($lf,$enl);
