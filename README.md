@@ -2,6 +2,7 @@
 Build your own 2-way encryption using PHP
 
 This will make a single letter into 512 random strings 16 length
+
 Example:
 ```
 "A" => [
