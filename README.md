@@ -1,7 +1,21 @@
 # 2WayEncryption
 Build your own 2-way encryption using PHP
 
-### Example
+This will make a single letter into 512 random strings 16 length
+Example:
+```
+"A" => [
+      "\\AvSb/86q?P1Lm7;",
+      "7n[i5W|CxW3]gA6^",
+      "2b:s4B|GsX4!zM3:",
+      "dP6>bE2+5JkuG/|9",
+      "5AcbD\\\\6!WsZs+55",
+      "6TeoQ~-8+PvYq_42",
+    ...
+]
+```
+
+### Usage
 **command:**
 
 `php 2WayEncryption.php hello`
