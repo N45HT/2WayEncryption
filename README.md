@@ -40,6 +40,8 @@ The output will automatically be stored in a TXT file
 
 Now, you can decrypt it by including the output file in the command
 
+File name: `$f = "out.txt";`
+
 **command:**
 
 `php 2WayEncryption.php out.txt`
