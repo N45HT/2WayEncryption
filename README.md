@@ -42,7 +42,7 @@ Now, you can decrypt it by including the output file in the command
 
 **command:**
 
-`cat out.txt`
+`php 2WayEncryption.php out.txt`
 
 **output:**
 
